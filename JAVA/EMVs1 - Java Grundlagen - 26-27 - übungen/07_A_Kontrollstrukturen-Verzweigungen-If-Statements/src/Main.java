@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-
+    // This is a Git test. Ignore this comment. I'm checking whether changes are also reflected in the Git repository.
     public static void main(String[] args) {
         System.out.println("Exercise 1");
         int bigNumber = 5000;
