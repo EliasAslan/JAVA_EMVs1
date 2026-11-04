@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/02_A_Variablen/02_A_Variablen.iml" filepath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/02_A_Variablen/02_A_Variablen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/03_A_String/03_A_String.iml" filepath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/03_A_String/03_A_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/04_A_Operatoren/04_A_Operatoren.iml" filepath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/04_A_Operatoren/04_A_Operatoren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/05_A_TypeCasting/05_A_TypeCasting.iml" filepath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/05_A_TypeCasting/05_A_TypeCasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/06_A_InputEinlesen/06_A_InputEinlesen.iml" filepath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/06_A_InputEinlesen/06_A_InputEinlesen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/07_A_Kontrollstrukturen-Verzweigungen-If-Statements/07_A_Kontrollstrukturen-Verzweigungen-If-Statements.iml" filepath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/07_A_Kontrollstrukturen-Verzweigungen-If-Statements/07_A_Kontrollstrukturen-Verzweigungen-If-Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/09_A_Kontrollstrukturen-Verzweigungen-Switch-Case/09_A_Kontrollstrukturen-Verzweigungen-Switch-Case.iml" filepath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/09_A_Kontrollstrukturen-Verzweigungen-Switch-Case/09_A_Kontrollstrukturen-Verzweigungen-Switch-Case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA_EMVs1.iml" filepath="$PROJECT_DIR$/.idea/JAVA_EMVs1.iml" />
+    </modules>
+  </component>
+</project>
