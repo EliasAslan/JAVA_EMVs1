@@ -1,6 +1,6 @@
 import java.util.Random;
 
-        public class Main {
+public class Main {
     public static void main(String[] args) {
 
         //--------------------------------------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ import java.util.Random;
         //      02-10. Odd numbers from 10 to -10 (descending)
         IO.println("ex1");
         int ex1 = 0;
-        while (ex1 <100){
+        while (ex1 < 100) {
             ex1++;
             System.out.print("ex1 = " + ex1 + " | ");
         }
@@ -52,7 +52,7 @@ import java.util.Random;
 
 
         int ex2 = 42;
-        while (ex2 <100){
+        while (ex2 < 100) {
             ex2++;
             System.out.print("ex2 = " + ex2 + " | ");
         }
@@ -62,7 +62,7 @@ import java.util.Random;
         IO.println("ex3");
 
         int ex3 = 42;
-        while (ex3 <123){
+        while (ex3 < 123) {
             ex3++;
             System.out.print("ex3 = " + ex3 + " | ");
         }
@@ -71,7 +71,7 @@ import java.util.Random;
         IO.println("ex4");
 
         int ex4 = 0;
-        while (ex4 <10){
+        while (ex4 < 10) {
             ex4 += 2;
             System.out.print("ex4 = " + ex4 + " | ");
         }
@@ -80,7 +80,7 @@ import java.util.Random;
         IO.println("ex5");
 
         int ex5 = 0;
-        while (ex5 <10){
+        while (ex5 < 10) {
             ex5 += 2;
             System.out.print("ex5 = " + ex5 + " | ");
         }
@@ -89,7 +89,7 @@ import java.util.Random;
         IO.println("ex6");
 
         int ex6 = -10;
-        while (ex6 < 20){
+        while (ex6 < 20) {
             ex6++;
             System.out.print("ex6 = " + ex6 + " | ");
         }
@@ -98,7 +98,7 @@ import java.util.Random;
         IO.println("ex7");
 
         int ex7 = 35;
-        while (ex7 > 0){
+        while (ex7 > 0) {
             ex7 += -1;
             System.out.print("ex7 = " + ex7 + " | ");
         }
@@ -107,7 +107,7 @@ import java.util.Random;
         IO.println("ex8");
 
         int ex8 = 15;
-        while (ex8 > -20){
+        while (ex8 > -20) {
             ex8 += -1;
             System.out.print("ex8 = " + ex8 + " | ");
         }
@@ -117,7 +117,7 @@ import java.util.Random;
         IO.println("ex9");
 
         int ex9 = 10;
-        while (ex9 > -10){
+        while (ex9 > -10) {
             ex9 += -2;
             System.out.print("ex9 = " + ex9 + " | ");
         }
@@ -127,7 +127,7 @@ import java.util.Random;
         IO.println("ex10");
 
         int ex10 = 9;
-        while (ex10 > -9){
+        while (ex10 > -9) {
             ex10 += -2;
             System.out.print("ex10 = " + ex10 + " | ");
         }
@@ -141,7 +141,7 @@ import java.util.Random;
 
         int whileSum_03 = 0;
         int sum = 0;
-        while (whileSum_03 < 100){
+        while (whileSum_03 < 100) {
             whileSum_03++;
             sum += whileSum_03;
             IO.print("sum" + "=" + sum + " | ");
@@ -156,7 +156,13 @@ import java.util.Random;
 
         int whileSum_04 = 0;
 
-        // Your code here
+        int zahl = 0;
+
+        while (zahl <= 100) {
+            whileSum_04 += zahl;
+            zahl += 2;
+        }
+
 
         System.out.println(whileSum_04); // Should be 2550
 
@@ -165,8 +171,13 @@ import java.util.Random;
         // 05.  Calculate the sum of all odd numbers from 0-100 (both inclusive). Print it to the console.
 
         int whileSum_05 = 0;
+        int i = 1;
 
-        // Your code here
+        while (i <= 99) {
+            whileSum_05 += i;
+            i += 2;
+        }
+
 
         System.out.println(whileSum_05); // Should be 2500
 
@@ -186,12 +197,16 @@ import java.util.Random;
         randomNumber = randomGenerator.nextInt(101);
         long iterationSteps = 0;
 
+
         // Implement a while loop that:
         // 1. Generates a random number
         // 2. Increments the iteration count
         // 3. Stops when 22 is generated
 
-        // Your code here
+        while (randomNumber != 22) {
+            randomNumber = randomGenerator.nextInt(101); //
+            iterationSteps++;
+        }
 
         System.out.println("The program ran " + iterationSteps + " times until the number was found!");
     }

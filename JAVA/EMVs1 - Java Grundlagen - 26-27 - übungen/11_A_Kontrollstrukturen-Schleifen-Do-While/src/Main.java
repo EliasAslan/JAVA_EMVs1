@@ -46,27 +46,104 @@ public class Main {
         //      02-09. Even numbers from 10 to -10 (descending)
         //      02-10. Odd numbers from 10 to -10 (descending)
 
+        // 02-01. 0 to 100
+        int n = 0;
+        do{
+            System.out.println(n);
+            n++;
+        } while (n <= 100);
+
+        // 02-02. 42 to 100
+        n = 42;
+        do {
+            System.out.println(n);
+            n++;
+        } while (n <= 100);
+
+        // 02-03. 42 to 123
+        n = 42;
+        do {
+            System.out.println(n);
+            n++;
+        } while (n <= 123);
+
+        // 02-04. Even numbers from 0 to 10
+        n = 0;
+        do {
+            System.out.println(n);
+            n += 2;
+        } while (n <= 10);
+
+        // 02-05. Odd numbers from 0 to 10
+        n = 1;
+        do {
+            System.out.println(n);
+            n += 2;
+        } while (n <= 10);
+
+        // 02-06. -10 to 20
+        n = -10;
+        do {
+            System.out.println(n);
+            n++;
+        } while (n <= 20);
+
+        // 02-07. 35 to 0 (descending)
+        n = 35;
+        do {
+            System.out.println(n);
+            n--;
+        } while (n >= 0);
+
+        // 02-08. 15 to -20 (descending)
+        n = 15;
+        do {
+            System.out.println(n);
+            n--;
+        } while (n >= -20);
+
+        // 02-09. Even numbers from 10 to -10 (descending)
+        n = 10;
+        do {
+            System.out.println(n);
+            n -= 2;
+        } while (n >= -10);
+
+        // 02-10. Odd numbers from 10 to -10 (descending)
+        n = 9;
+        do {
+            System.out.println(n);
+            n -= 2;
+        } while (n >= -9);
+
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 03");
         // 03.  Calculate the sum of all numbers from 0-100 (both inclusive). Print it to the console.
 
         int whileSum_03 = 0;
+        int i = 0;
 
-        // Your code here
+        while (i <= 100) {
+            whileSum_03 += i;
+            i++;
+        }
 
-        System.out.println(whileSum_03); // Should be 5050
+        System.out.println(whileSum_03); // 5050
 
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 04");
         // 04.  Calculate the sum of all even numbers from 0-100 (both inclusive). Print it to the console.
-
         int whileSum_04 = 0;
+        int j = 0;
 
-        // Your code here
+        while (j <= 100) {
+            whileSum_04 += j;
+            j += 2;
+        }
 
-        System.out.println(whileSum_04); // Should be 2550
+        System.out.println(whileSum_04); // 2550
 
 
         //--------------------------------------------------------------------------------------------------------------
@@ -74,10 +151,14 @@ public class Main {
         // 05.  Calculate the sum of all odd numbers from 0-100 (both inclusive). Print it to the console.
 
         int whileSum_05 = 0;
+        int u = 1;
 
-        // Your code here
+        while (u <= 100) {
+            whileSum_05 += u;
+            u += 2;
+        }
 
-        System.out.println(whileSum_05); // Should be 2500
+        System.out.println(whileSum_05); // 2500
 
 
         //--------------------------------------------------------------------------------------------------------------
