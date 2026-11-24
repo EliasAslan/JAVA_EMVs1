@@ -31,6 +31,14 @@ public class Main {
         //         i:0 i:1 i:2 i:3 i:4 i:5 i:6 i:7 i:8 i:9
         //      4. Extra: What happens, if the initial value of "iteratorEx1" would be set to 100 instead of 0?
 
+        // Answer: Without changing iteratorEx1, the loop prints 0 forever because its value never changes.
+        // Increase iteratorEx1 in the loop to print 0 through 9. With an initial value of 100, it prints 100 once.
+        int iteratorEx1 = 0;
+        do {
+            System.out.println("i:" + iteratorEx1 + " ");
+            iteratorEx1++;
+        } while (iteratorEx1 < 10);
+
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 02");
@@ -124,10 +132,10 @@ public class Main {
         int whileSum_03 = 0;
         int i = 0;
 
-        while (i <= 100) {
+        do {
             whileSum_03 += i;
             i++;
-        }
+        } while (i <= 100);
 
         System.out.println(whileSum_03); // 5050
 
@@ -138,10 +146,10 @@ public class Main {
         int whileSum_04 = 0;
         int j = 0;
 
-        while (j <= 100) {
+        do {
             whileSum_04 += j;
             j += 2;
-        }
+        } while (j <= 100);
 
         System.out.println(whileSum_04); // 2550
 
@@ -153,10 +161,10 @@ public class Main {
         int whileSum_05 = 0;
         int u = 1;
 
-        while (u <= 100) {
+        do {
             whileSum_05 += u;
             u += 2;
-        }
+        } while (u <= 100);
 
         System.out.println(whileSum_05); // 2500
 
@@ -182,7 +190,10 @@ public class Main {
         // 2. Increments the iteration count
         // 3. Stops when 22 is generated
 
-        // Your code here
+        do {
+            randomNumber = randomGenerator.nextInt(101);
+            iterationSteps++;
+        } while (randomNumber != 22);
 
         System.out.println("The program ran " + iterationSteps + " times until the number was found!");
 
@@ -210,7 +221,10 @@ public class Main {
         // 2. Increments the iteration count
         // 3. Continues until firstRandomNumber equals secondRandomNumber
 
-        // Your code here
+        do {
+            secondRandomNumber = randomGenerator.nextInt(101);
+            iterationSteps++;
+        } while (firstRandomNumber != secondRandomNumber);
 
         System.out.println("The program ran " + iterationSteps + " times until both random numbers matched.");
         System.out.println("The matching number was: " + firstRandomNumber);
@@ -240,7 +254,10 @@ public class Main {
         // 2. Reads the user's input
         // 3. Continues until the guessed number matches the random number
 
-        // Your code here
+        do {
+            System.out.print("Guess the number from 0 to 10: ");
+            guessedNumber = input.nextInt();
+        } while (guessedNumber != rndNumberToGuess);
 
         System.out.println("Congratulations! You've guessed the correct number: " + rndNumberToGuess);
 

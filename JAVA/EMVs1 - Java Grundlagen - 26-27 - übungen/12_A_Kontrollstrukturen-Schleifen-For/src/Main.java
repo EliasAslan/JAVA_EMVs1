@@ -21,6 +21,11 @@ public class Main {
         //      3. How can you modify the code to achieve the desired output:
         //         i:0 i:1 i:2 i:3 i:4 i:5 i:6 i:7 i:8 i:9
 
+        // Answer: The loop never ends because iteratorEx1 is never increased. Add iteratorEx1++ to the loop.
+        for (int iteratorEx1 = 0; iteratorEx1 < 10; iteratorEx1++) {
+            System.out.println("i:" + iteratorEx1 + " ");
+        }
+
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 02");
@@ -36,6 +41,17 @@ public class Main {
         //      02-09. Even numbers from 10 to -10 (descending)
         //      02-10. Odd numbers from 10 to -10 (descending)
 
+        for (int number = 0; number <= 100; number++) System.out.println(number);
+        for (int number = 42; number <= 100; number++) System.out.println(number);
+        for (int number = 42; number <= 123; number++) System.out.println(number);
+        for (int number = 0; number <= 10; number += 2) System.out.println(number);
+        for (int number = 1; number <= 10; number += 2) System.out.println(number);
+        for (int number = -10; number <= 20; number++) System.out.println(number);
+        for (int number = 35; number >= 0; number--) System.out.println(number);
+        for (int number = 15; number >= -20; number--) System.out.println(number);
+        for (int number = 10; number >= -10; number -= 2) System.out.println(number);
+        for (int number = 9; number >= -9; number -= 2) System.out.println(number);
+
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 03");
@@ -43,7 +59,7 @@ public class Main {
 
         int forSum_03 = 0;
 
-        // Your code here
+        for (int number = 0; number <= 100; number++) forSum_03 += number;
 
         System.out.println(forSum_03); // Should be 5050
 
@@ -53,7 +69,7 @@ public class Main {
 
         int forSum_04 = 0;
 
-        // Your code here
+        for (int number = 0; number <= 100; number += 2) forSum_04 += number;
 
         System.out.println(forSum_04); // Should be 2550
 
@@ -63,7 +79,7 @@ public class Main {
 
         int forSum_05 = 0;
 
-        // Your code here
+        for (int number = 1; number <= 100; number += 2) forSum_05 += number;
 
         System.out.println(forSum_05); // Should be 2500
 
