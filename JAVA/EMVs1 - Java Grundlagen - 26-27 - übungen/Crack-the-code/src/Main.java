@@ -21,15 +21,27 @@ public class Main {
         while(gnumber != number || gnumber1 != number1 || gnumber2 != number2 || gnumber3 != number3 ){
             do{
             gnumber = Integer.parseInt(IO.readln("guess a number from 1-9: ").trim());
+            if (gnumber >= 10){
+                IO.println("number to high, try again");
+            }
             }while (gnumber >= 10);
             do{
             gnumber1 = Integer.parseInt(IO.readln("another one: (1-9) ").trim());
+                if (gnumber1 >= 10){
+                    IO.println("number to high, try again");
+                }
             }while (gnumber1 >= 10);
             do{
             gnumber2 = Integer.parseInt(IO.readln("another one: (1-9) ").trim());
+                if (gnumber2 >= 10){
+                    IO.println("number to high, try again");
+                }
             }while (gnumber2 >= 10);
             do {
                 gnumber3 = Integer.parseInt(IO.readln("another one: (1-9) ").trim());
+                if (gnumber3 >= 10){
+                    IO.println("number to high, try again");
+                }
             }while (gnumber3 >= 10);
 
             IO.println(gnumber + "" + gnumber1 + "" + gnumber2 + "" + gnumber3);
