@@ -34,57 +34,43 @@ public class Main {
 
             IO.println(gnumber + "" + gnumber1 + "" + gnumber2 + "" + gnumber3);
 
-            //first number
-            if(number == gnumber){
+            // first number
+            if (number == gnumber) {
                 IO.print("✓");
-            } else if (number != gnumber) {
+            } else if (number == gnumber1 || number == gnumber2 || number == gnumber3) {
+                IO.print("✇");
+            } else {
                 IO.print("x");
-
-            } else if (number2 == gnumber || gnumber1 || gnumber3){
-                IO.println("✇");
             }
-            else{
-                IO.print("uhh, what happend?");
-             }
 
-            //second number
-            if(number1 == gnumber1){
+            // second number
+            if (number1 == gnumber1) {
                 IO.print("✓");
-            } else if (number1 != gnumber1) {
+            } else if (number1 == gnumber || number1 == gnumber2 || number1 == gnumber3) {
+                IO.print("✇");
+            } else {
                 IO.print("x");
-
-            } else if (number2 == gnumber || gnumber1 || gnumber3){
-                IO.println("✇");
-            }else{
-                IO.print("uhh, what happend?");
             }
 
-
-            //third number
-            if(number2 == gnumber2){
+            // third number
+            if (number2 == gnumber2) {
                 IO.print("✓");
-            } else if (number2 != gnumber2) {
+            } else if (number2 == gnumber || number2 == gnumber1 || number2 == gnumber3) {
+                IO.print("✇");
+            } else {
                 IO.print("x");
-
-            } else if (number2 == gnumber || gnumber1 || gnumber3) {
-                IO.println("✇");
-            }else{
-                IO.print("uhh, what happend?");
             }
 
-            //forth number
-            if(number3 == gnumber3){
+            // fourth number
+            if (number3 == gnumber3) {
                 IO.print("✓");
-            } else if (number3 != gnumber3) {
+            } else if (number3 == gnumber || number3 == gnumber1 || number3 == gnumber2) {
+                IO.print("✇");
+            } else {
                 IO.print("x");
+            }
 
-            } else if (number2 == gnumber || gnumber1 || gnumber3){
-                IO.println("✇");
-            }
-            else{
-                IO.print("uhh, what happend?");
-            }
-            IO.println(" ");
+            IO.println("");
         }
 
     }
