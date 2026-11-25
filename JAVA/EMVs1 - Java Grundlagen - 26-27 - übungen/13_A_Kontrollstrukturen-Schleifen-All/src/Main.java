@@ -46,7 +46,7 @@ public class Main {
         // Your code here
         boolean isPrime = true;
         for (int divisor = 2; divisor < n; divisor++) {
-            if (n % divisor == 0) { isPrime = false; break; }
+            if (n % divisor == 0) { isPrime = false;}
         }
         System.out.println(isPrime ? "It's a prime number!" : "It's not a prime number!");
 
@@ -58,7 +58,7 @@ public class Main {
             boolean isPrimeAll = true;
             for (int divisor = 2; divisor < number; divisor++) {
                 if (number % divisor == 0) {
-                    isPrimeAll = false; break; }
+                    isPrimeAll = false;}
             }
             if (isPrimeAll) System.out.println(number);
         }
