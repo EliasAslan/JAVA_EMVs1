@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0e3f83-b417-460e-a0d5-8ed4f086e517" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/11_A_Kontrollstrukturen-Schleifen-Do-While/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/11_A_Kontrollstrukturen-Schleifen-Do-While/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/12_A_Kontrollstrukturen-Schleifen-For/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/12_A_Kontrollstrukturen-Schleifen-For/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/13_A_Kontrollstrukturen-Schleifen-All/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/13_A_Kontrollstrukturen-Schleifen-All/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 -übungen/10_A/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA/EMVs1 - Java Grundlagen - 26-27 -übungen/EMVs1 - Java Grundlagen - 26-27 -übungen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11_A_Kontrollstrukturen-Schleifen-Do-While/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_A_Kontrollstrukturen-Schleifen-Do-While/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="73" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,61 +29,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000056391516972" />
-      <entry key="MS500" value="1.1604086041297454" />
-      <entry key="S2" value="2.98948642158841" />
-      <entry key="S5" value="5.843644417063027" />
-      <entry key="S10" value="12.80921464209535" />
-      <entry key="S30" value="65.57761106147885" />
-      <entry key="S60" value="127.92849195718688" />
-      <entry key="M2" value="187.9580285308036" />
-      <entry key="M5" value="243.00119330824603" />
-      <entry key="M10" value="267.12597386501193" />
-      <entry key="M15" value="276.25301987162266" />
-      <entry key="M30" value="286.5487068574299" />
-      <entry key="H1" value="292.79892573475877" />
-      <entry key="H2" value="296.54365027038904" />
-      <entry key="H4" value="298.6625923329674" />
-      <entry key="D1" value="300.5931281625201" />
-      <entry key="W1" value="300.9414205617407" />
+      <entry key="MS100" value="2.725041490255357E-24" />
+      <entry key="MS500" value="2.0859868755199853E-5" />
+      <entry key="S2" value="0.10137840810237872" />
+      <entry key="S5" value="0.6247125000531893" />
+      <entry key="S10" value="1.3132968760875974" />
+      <entry key="S30" value="3.0118787242395704" />
+      <entry key="S60" value="4.318415686181949" />
+      <entry key="M2" value="6.647770414275674" />
+      <entry key="M5" value="14.757958673214446" />
+      <entry key="M10" value="36.74880881200258" />
+      <entry key="M15" value="68.56345050271672" />
+      <entry key="M30" value="155.50797162771934" />
+      <entry key="H1" value="248.5069969199584" />
+      <entry key="H2" value="317.9871435982298" />
+      <entry key="H4" value="360.7323098423819" />
+      <entry key="D1" value="401.29132521007926" />
+      <entry key="W1" value="408.74308981624137" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.5E-323" />
-      <entry key="S2" value="1.8995736984824175E-81" />
-      <entry key="S5" value="5.1459132322147144E-33" />
-      <entry key="S10" value="7.173502096057925E-17" />
-      <entry key="S30" value="4.155057866842316E-6" />
-      <entry key="S60" value="0.0020383959053241595" />
-      <entry key="M2" value="0.045148598044707805" />
-      <entry key="M5" value="0.2896621082072461" />
-      <entry key="M10" value="0.5449118043657076" />
-      <entry key="M15" value="0.706544841456443" />
-      <entry key="M30" value="1.1130947804364035" />
-      <entry key="H1" value="1.6760749038007938" />
-      <entry key="H2" value="2.194010449146624" />
-      <entry key="H4" value="2.5520633572662397" />
-      <entry key="D1" value="2.918158243393755" />
-      <entry key="W1" value="2.9881185451222345" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000010727" />
+      <entry key="S2" value="1.0010701122398764" />
+      <entry key="S5" value="1.0899100508663533" />
+      <entry key="S10" value="1.4922447093163567" />
+      <entry key="S30" value="2.8486786847202836" />
+      <entry key="S60" value="3.710252527550027" />
+      <entry key="M2" value="4.482447409207063" />
+      <entry key="M5" value="6.632242059766153" />
+      <entry key="M10" value="11.306567619427224" />
+      <entry key="M15" value="15.494993464937732" />
+      <entry key="M30" value="23.573013316683323" />
+      <entry key="H1" value="30.62057664866662" />
+      <entry key="H2" value="35.55129978139275" />
+      <entry key="H4" value="38.544000225580916" />
+      <entry key="D1" value="41.38717021068336" />
+      <entry key="W1" value="41.91148063676712" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.920193022466643" />
-      <entry key="MS500" value="1.1423183029247201" />
-      <entry key="S2" value="2.980408193968007" />
-      <entry key="S5" value="5.837140569361105" />
-      <entry key="S10" value="12.802306791100401" />
-      <entry key="S30" value="65.5628146743763" />
-      <entry key="S60" value="127.91170798677943" />
-      <entry key="M2" value="187.98363689944338" />
-      <entry key="M5" value="243.27304770373541" />
-      <entry key="M10" value="267.6577094672538" />
-      <entry key="M15" value="276.9491525185103" />
-      <entry key="M30" value="287.65484973712194" />
-      <entry key="H1" value="294.4704431552296" />
-      <entry key="H2" value="298.7349049995066" />
-      <entry key="H4" value="301.2131157765159" />
-      <entry key="D1" value="303.51100239778384" />
-      <entry key="W1" value="303.92949779088383" />
+      <entry key="MS100" value="9.380341682666084E-5" />
+      <entry key="MS500" value="0.15649285589189182" />
+      <entry key="S2" value="0.7007351093266319" />
+      <entry key="S5" value="1.3855978825246678" />
+      <entry key="S10" value="2.4826728236459314" />
+      <entry key="S30" value="5.613202536834703" />
+      <entry key="S60" value="7.8601760059593" />
+      <entry key="M2" value="11.022963352116866" />
+      <entry key="M5" value="21.322209027381167" />
+      <entry key="M10" value="47.995676836991244" />
+      <entry key="M15" value="84.0027484456179" />
+      <entry key="M30" value="179.03700045327807" />
+      <entry key="H1" value="279.09808105667406" />
+      <entry key="H2" value="353.52093208695527" />
+      <entry key="H4" value="399.26668599680477" />
+      <entry key="D1" value="442.6767505312548" />
+      <entry key="W1" value="450.6543174215567" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -102,13 +108,21 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/e3953/Documents/GitHub/JAVA_EMVs1/JAVA/EMVs1 - Java Grundlagen - 26-27 - übungen/Crack-the-code/src/Main.java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\e3953\Documents\GitHub\JAVA_EMVs1\JAVA\EMVs1 - Java Grundlagen - 26-27 - übungen" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

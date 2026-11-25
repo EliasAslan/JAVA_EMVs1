@@ -57,7 +57,8 @@ public class Main {
         for (int number = 2; number <= 100; number++) {
             boolean isPrimeAll = true;
             for (int divisor = 2; divisor < number; divisor++) {
-                if (number % divisor == 0) { isPrimeAll = false; break; }
+                if (number % divisor == 0) {
+                    isPrimeAll = false; break; }
             }
             if (isPrimeAll) System.out.println(number);
         }
